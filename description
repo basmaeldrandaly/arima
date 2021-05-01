@@ -1,0 +1,20 @@
+
+1-when using autoarima on 5 min data: rmse is 64.05
+**7-when using autoarima with rolling on 5 min data:rmse=43.621 'rolling+auto_on_5_min.ipynb'
+2-when using rolling on 5 min data :rmse is 47.812 'm7md's file'
+
+3-when using autoarima on hr data :rmse is 226.41 'fridge_arima.ipynb'
+4-when using rolling on hr data:rmse is 238.523
+**5-when using gridsearch with rolling on hrs (4,0,0):rmse=220.925 'ARIMA-hrs.ipynb'
+6-when using gridsearch with rolling on 5 min:rmse=dead -_-
+
+--------------------------
+concerns
+
+-using model on small intervals gives us many data points meaning
+better training ,and small values so rmse is small 
+
+-using model on large intervals gives us less data to train on,but the
+values are larger so rmse is larger 'makes sense'
+
+Q-in muse we will be predicting days..so which method makes sense??
